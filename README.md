@@ -1,4 +1,8 @@
 # homepage
 
 ***
-####一个只用html+css制作出来的简单的个性化主页
+#### 一个只用html+css制作出来的简单的个性化主页
+
+***
+#### 效果图
+![image](http://github.com/TangqiuQAQ/homepage/image.png)
