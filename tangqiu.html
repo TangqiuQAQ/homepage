@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>傻球的小窝</title>
+		<style>
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #b2dfdb; 
+}
+		li{
+			float: left;
+}
+		li a{
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+}
+		li a:hover {
+    background-color:  #e3f2fd;
+}
+
+		body{
+			background-color: #e3f2fd;
+			text-align: center;
+			overflow: hidden;
+			padding: 0px;
+			margin: 0px;
+}
+		h1{
+			font-size: 50px;
+			color: white;
+			
+}
+		.box{
+			position: absolute;
+			top: 40%;
+			left: 50%;
+			width: 500px;
+			transform: translate(-50%,-50%);
+}
+		input{
+			position: relative;
+			display: inline-block;
+			font-size: 20px;
+ 			box-sizing: border-box
+			transition: 5s;
+}
+		input[type="text"]{
+			background: #fff;
+			width: 330px;
+			height: 40px;
+			border: none;
+			outline: none;
+			padding:0 25px;
+			border-radius: 25px 0 0 25px;		
+}
+		input[type="submit"]{
+			position: relative;
+			left: -5px;
+			border-radius: 0 25px 25px 0;
+			width: 100px;
+			height: 40px;
+			border: none;
+			outline: none;
+			cursor: pointer;
+}
+		</style>
+	</head>
+
+	<body>
+		<ul>
+			<li><a href="https://twitter.com/">Twitter</a></li>
+			<li><a href="https://github.com/TangqiuQAQ">Github</a></li>
+			<li><a href="http://www.speedtest.cn/">网速测试</a></li>
+			<li><a href="http://ip111.cn/">IP查询</a></li>
+		</ul>
+			<div class="box">
+				<h1>傻球的小窝</h1>
+				<form method="get" action="http://www.google.com/search">
+				<table bgcolor="#FFFFFF">
+				<input type=text name=q size=31 maxlength=255 value="">
+				<input type=submit name=btnG value="搜一下">
+			</form>
+		</div>
+	</body>
+</html>
