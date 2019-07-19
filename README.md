@@ -5,4 +5,4 @@
 
 ***
 #### 效果图
-![image](http://github.com/TangqiuQAQ/homepage/image.png)
+![image](https://github.com/TangqiuQAQ/homepage/blob/master/image.png)
